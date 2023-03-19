@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="458.0" prefWidth="593.0" style="-fx-background-color: #a8c7d5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="first.BeforthirdController">
+   <children>
+      <ImageView fitHeight="425.0" fitWidth="593.0" layoutY="30.0">
+         <image>
+            <Image url="@please/onegood.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="namelable" layoutX="207.0" layoutY="284.0" prefHeight="33.0" prefWidth="242.0" textFill="#942525">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="namelable1" layoutX="155.0" layoutY="134.0" prefHeight="68.0" prefWidth="303.0" text="Player Information">
+         <font>
+            <Font name="Segoe Print Bold" size="30.0" />
+         </font>
+      </Label>
+      <ButtonBar layoutX="186.0" layoutY="314.0" prefHeight="40.0" prefWidth="200.0">
+         <buttons>
+            <Button mnemonicParsing="false" onAction="#back" prefHeight="163.0" prefWidth="147.0" style="-fx-background-color: #a8c7d5;" text="Clear">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/6.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="buttonNext1" mnemonicParsing="false" onAction="#next" prefHeight="91.0" prefWidth="52.0" style="-fx-background-color: #a8c7d5;" text="next">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="83.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/6.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </buttons>
+      </ButtonBar>
+      <Label layoutX="110.0" layoutY="334.0" text="Label" textFill="#a8c7d5" />
+      <VBox layoutX="124.0" layoutY="198.0" prefHeight="68.0" prefWidth="100.0" spacing="25.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="97.0" text="Name">
+               <font>
+                  <Font name="Segoe Print Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="97.0" text="Email">
+               <font>
+                  <Font name="Segoe Print Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="207.0" layoutY="202.0" prefHeight="82.0" prefWidth="190.0" spacing="20.0">
+         <children>
+            <TextField fx:id="nameText" prefHeight="30.0" prefWidth="159.0" />
+            <TextField fx:id="emailText" prefHeight="30.0" prefWidth="159.0" />
+         </children>
+      </VBox>
+      <ImageView fitHeight="101.0" fitWidth="100.0" layoutX="27.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true" rotate="-71.6">
+         <image>
+            <Image url="@please/tyuiklfd.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="238.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clear" wrappingWidth="55.142303466796875">
+         <font>
+            <Font name="Segoe Print Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="335.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Next" wrappingWidth="55.142303466796875">
+         <font>
+            <Font name="Segoe Print Bold" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="40.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@please/tyuiklfd.png" />
+         </image>
+      </ImageView>
+      <MenuBar fx:id="thismenu" layoutX="47.0" prefHeight="34.0" prefWidth="545.0" style="-fx-background-color: #a5cad7;">
+         <menus>
+            <Menu mnemonicParsing="false">
+               <items>
+                  <MenuItem fx:id="MENUCLOSE" mnemonicParsing="false" onAction="#MENUCLOSE" text="Close" />
+               </items>
+               <graphic>
+                  <Text lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File" wrappingWidth="40.42245292663574">
+                     <font>
+                        <Font name="Segoe Print" size="18.0" />
+                     </font>
+                  </Text>
+               </graphic>
+            </Menu>
+            <Menu mnemonicParsing="false">
+               <items>
+                  <MenuItem fx:id="ABUT" mnemonicParsing="false" onAction="#ABUTACTION" text="About" />
+               </items>
+               <graphic>
+                  <Text lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="help" wrappingWidth="40.42245292663574">
+                     <font>
+                        <Font name="Segoe Print" size="18.0" />
+                     </font>
+                  </Text>
+               </graphic>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="458.0" prefWidth="593.0" style="-fx-background-color: #ffd1a6;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="first.FifthController">
+   <children>
+      <ImageView fitHeight="183.0" fitWidth="221.0" layoutX="24.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/orange.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="320.0" fitWidth="321.0" layoutX="250.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/ENAS.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="14.0" layoutY="229.0" prefHeight="196.0" prefWidth="221.0">
+         <children>
+            <Button fx:id="part1" mnemonicParsing="false" onAction="#part1Action" prefHeight="43.0" prefWidth="16.0" style="-fx-background-color: #ffd1a6;">
+               <graphic>
+                  <ImageView fx:id="pic2" fitHeight="58.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/2o.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="part4" layoutY="63.0" mnemonicParsing="false" onAction="#part4Action" prefHeight="51.0" prefWidth="52.0" style="-fx-background-color: #ffd1a6;">
+               <graphic>
+                  <ImageView fx:id="pic1" fitHeight="62.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/1o.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="part7" layoutY="123.0" mnemonicParsing="false" onAction="#part7Action" prefHeight="70.0" prefWidth="85.0" style="-fx-background-color: #ffd1a6;">
+               <graphic>
+                  <ImageView fx:id="pic8" fitHeight="71.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/8o.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="part2" layoutX="71.0" layoutY="1.0" mnemonicParsing="false" onAction="#part2Action" prefHeight="48.0" prefWidth="52.0" style="-fx-background-color: #ffd1a6;">
+               <graphic>
+                  <ImageView fx:id="pic4" fitHeight="60.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/4o.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="part5" layoutX="71.0" layoutY="64.0" mnemonicParsing="false" onAction="#part5Action" prefHeight="41.0" prefWidth="52.0" style="-fx-background-color: #ffd1a6;">
+               <graphic>
+                  <ImageView fx:id="pic3" fitHeight="62.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/3o.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="part8" layoutX="71.0" layoutY="126.0" mnemonicParsing="false" onAction="#part8Action" prefHeight="55.0" prefWidth="69.0" style="-fx-background-color: #ffd1a6;">
+               <graphic>
+                  <ImageView fx:id="pic5" fitHeight="78.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/5o.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="part3" layoutX="140.0" layoutY="2.0" mnemonicParsing="false" onAction="#part3Action" prefHeight="68.0" prefWidth="70.0" style="-fx-background-color: #ffd1a6;">
+               <graphic>
+                  <ImageView fx:id="pic9" fitHeight="57.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/9o.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="part9" layoutX="140.0" layoutY="141.0" mnemonicParsing="false" onAction="#part9Action" prefHeight="54.0" prefWidth="71.0" style="-fx-background-color: #ffd1a6;">
+               <graphic>
+                  <ImageView fx:id="pic7" fitHeight="60.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/7o.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="part6" layoutX="140.0" layoutY="64.0" mnemonicParsing="false" onAction="#part6Action" prefHeight="50.0" prefWidth="52.0" style="-fx-background-color: #ffd1a6;">
+               <graphic>
+                  <ImageView fx:id="pic6" fitHeight="73.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/6o.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="237.0" layoutY="-9.0" prefHeight="438.0" prefWidth="374.0">
+         <children>
+            <Pane layoutX="-19.0" layoutY="162.0" prefHeight="205.0" prefWidth="471.0">
+               <children>
+                  <ImageView fx:id="Image4" fitHeight="141.0" fitWidth="164.0" layoutX="13.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@please/4o.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image5" fitHeight="174.0" fitWidth="187.0" layoutX="157.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true" visible="false" x="-35.0" y="-8.0">
+                     <image>
+                        <Image url="@please/5o.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image6" fitHeight="167.0" fitWidth="164.0" layoutX="217.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@please/6o.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="-10.0" layoutY="54.0" prefHeight="114.0" prefWidth="382.0">
+               <children>
+                  <ImageView fx:id="image1" fitHeight="157.0" fitWidth="164.0" layoutX="14.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@please/1o.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image2" fitHeight="125.0" fitWidth="145.0" layoutX="119.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@please/2o.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image3" fitHeight="124.0" fitWidth="178.0" layoutX="205.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@please/3o.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="-29.0" layoutY="325.0" prefHeight="167.0" prefWidth="433.0">
+               <children>
+                  <ImageView fx:id="image7" fitHeight="177.0" fitWidth="130.0" layoutX="34.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@please/7o.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image8" fitHeight="130.0" fitWidth="157.0" layoutX="122.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@please/8o.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="image9" fitHeight="174.0" fitWidth="150.0" layoutX="227.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@please/9o.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <HBox layoutX="320.0" layoutY="50.0" prefHeight="60.0" prefWidth="172.0">
+         <children>
+            <Button fx:id="BackArraw" minWidth="46.0" mnemonicParsing="false" onAction="#BackArrawAction" prefHeight="59.0" prefWidth="57.0" style="-fx-background-color: #ffd1a6;">
+               <graphic>
+                  <ImageView fitHeight="44.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/backOrange.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="close2" minWidth="44.0" mnemonicParsing="false" onAction="#close2action" prefHeight="48.0" prefWidth="44.0" style="-fx-background-color: #ffd1a6;" textFill="#d57c00">
+               <graphic>
+                  <ImageView fitHeight="49.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/homeOrang.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="aboutChild" minWidth="46.0" mnemonicParsing="false" onAction="#aboutChildAction" prefHeight="58.0" prefWidth="58.0" style="-fx-background-color: #ffd1a6;">
+               <graphic>
+                  <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@please/aboutorange.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <GridPane layoutX="257.0" layoutY="100.0" prefHeight="330.0" prefWidth="304.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="put4" mnemonicParsing="false" onAction="#put4Ation" opacity="0.0" prefHeight="148.0" prefWidth="183.0" text="Button" GridPane.rowIndex="1" />
+            <Button fx:id="put7" mnemonicParsing="false" onAction="#put7Ation" opacity="0.0" prefHeight="138.0" prefWidth="152.0" text="Button" GridPane.rowIndex="2" />
+            <Button fx:id="put5" mnemonicParsing="false" onAction="#put5Action" opacity="0.0" prefHeight="153.0" prefWidth="162.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="put6" mnemonicParsing="false" onAction="#put6Ation" opacity="0.0" prefHeight="127.0" prefWidth="153.0" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="put8" mnemonicParsing="false" onAction="#put8Ation" opacity="0.0" prefHeight="129.0" prefWidth="159.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="put9" mnemonicParsing="false" onAction="#put9Ation" opacity="0.0" prefHeight="129.0" prefWidth="149.0" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="put1" mnemonicParsing="false" onAction="#put1Ation" opacity="0.0" prefHeight="148.0" prefWidth="183.0" text="Button" />
+            <Button fx:id="put2" layoutX="10.0" layoutY="124.0" mnemonicParsing="false" onAction="#put2Ation" opacity="0.0" prefHeight="148.0" prefWidth="183.0" text="Button" GridPane.columnIndex="1" />
+            <Button fx:id="put3" mnemonicParsing="false" onAction="#put3Ation" opacity="0.0" prefHeight="148.0" prefWidth="183.0" text="Button" GridPane.columnIndex="2" />
+         </children>
+      </GridPane>
+      <Button fx:id="done2" layoutX="478.0" layoutY="58.0" mnemonicParsing="false" onAction="#done2Action" prefHeight="39.0" prefWidth="90.0" style="-fx-background-color: #ebb37f;" text="Done" textFill="#ffd7a2">
+         <graphic>
+            <ImageView fitHeight="32.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@please/DoneOrange.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

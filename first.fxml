@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="458.0" prefWidth="593.0" style="-fx-background-color: #a5cad7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="first.FirstController">
+   <children>
+      <ImageView fitHeight="436.0" fitWidth="593.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/11st.jpg" />
+         </image>
+      </ImageView>
+      <ButtonBar layoutX="178.0" layoutY="290.0" prefHeight="40.0" prefWidth="70.0">
+         <buttons>
+            <Button fx:id="close" mnemonicParsing="false" onAction="#closeActionn" prefHeight="25.0" prefWidth="73.0" style="-fx-background-color: #f7ce6d;" text="Close" textFill="#3a87c5">
+               <font>
+                  <Font name="Segoe Print Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="startButton" mnemonicParsing="false" onAction="#start" prefHeight="25.0" prefWidth="73.0" style="-fx-background-color: #f7ce6d;" text="Start" textFill="#3a87c5">
+               <font>
+                  <Font name="Segoe Print Bold" size="14.0" />
+               </font>
+            </Button>
+         </buttons>
+      </ButtonBar>
+      <Label layoutX="92.0" layoutY="183.0" prefHeight="130.0" prefWidth="458.0" text="Puzzle Game" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="Segoe Print" size="54.0" />
+         </font>
+      </Label>
+      <Button layoutX="36.0" layoutY="-1.0" mnemonicParsing="false" opacity="0.0" prefHeight="29.0" prefWidth="51.0" AnchorPane.rightAnchor="506.0">
+         <graphic>
+            <MenuButton mnemonicParsing="false">
+               <items>
+                  <MenuItem fx:id="Exit" mnemonicParsing="false" onAction="#ExitAction" text="Exit" />
+               </items>
+            </MenuButton>
+         </graphic>
+      </Button>
+      <Button layoutX="87.0" layoutY="-1.0" mnemonicParsing="false" opacity="0.0" prefHeight="29.0" prefWidth="58.0">
+         <graphic>
+            <MenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="38.0">
+               <items>
+                  <MenuItem fx:id="AboutButton" mnemonicParsing="false" onAction="#AboutButton" text="How to Play" />
+               </items>
+            </MenuButton>
+         </graphic>
+      </Button>
+      <MenuBar fx:id="thismenu" layoutX="47.0" prefHeight="34.0" prefWidth="545.0" style="-fx-background-color: #a5cad7;">
+        <menus>
+          <Menu mnemonicParsing="false">
+            <items>
+              <MenuItem fx:id="MENUCLOSE" mnemonicParsing="false" onAction="#MENUCLOSE" text="Close" />
+            </items>
+               <graphic>
+                  <Text lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File" wrappingWidth="40.42245292663574">
+                     <font>
+                        <Font name="Segoe Print" size="18.0" />
+                     </font>
+                  </Text>
+               </graphic>
+          </Menu>
+          <Menu mnemonicParsing="false">
+            <items>
+              <MenuItem fx:id="ABUT" mnemonicParsing="false" onAction="#ABUTACTION" text="About" />
+            </items>
+               <graphic>
+                  <Text lineSpacing="10.0" strokeType="OUTSIDE" strokeWidth="0.0" text="help" wrappingWidth="40.42245292663574">
+                     <font>
+                        <Font name="Segoe Print" size="18.0" />
+                     </font>
+                  </Text>
+               </graphic>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="40.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@please/tyuiklfd.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

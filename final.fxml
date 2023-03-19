@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="458.0" prefWidth="593.0" style="-fx-background-color: #a5cad7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="first.FinalController">
+   <children>
+      <ImageView fitHeight="396.0" fitWidth="599.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/great.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="close" layoutX="517.0" layoutY="415.0" mnemonicParsing="false" onAction="#closeAction" prefHeight="29.0" prefWidth="69.0" style="-fx-background-color: #dc9c52;" text="Close">
+         <font>
+            <Font name="Segoe Print Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="playername" layoutX="238.0" layoutY="365.0" prefHeight="39.0" prefWidth="177.0" textFill="#b87b2c">
+         <font>
+            <Font name="Segoe Print Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="385.0" prefHeight="60.0" prefWidth="399.0" text="you are such a word genius">
+         <font>
+            <Font name="Segoe Print Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="188.0" layoutY="41.0" prefHeight="45.0" prefWidth="240.0" text="congratultions" textFill="#170d03">
+         <font>
+            <Font name="Segoe Print Bold" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="221.0" fitWidth="232.0" layoutX="183.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/winner.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="93.0" layoutX="251.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/11112345678.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="93.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/11112345678.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="93.0" layoutX="335.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/11112345678.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="93.0" layoutX="83.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/11112345678.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="93.0" layoutX="167.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/11112345678.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="93.0" layoutX="501.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/11112345678.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="93.0" layoutX="416.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/11112345678.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

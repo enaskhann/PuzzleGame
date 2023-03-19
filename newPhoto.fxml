@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="362.0" prefWidth="505.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="362.0" fitWidth="505.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@please/2nd.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="34.0" layoutX="36.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please/لون.jpg" />
+         </image>
+      </ImageView>
+      <VBox layoutX="60.0" layoutY="161.0" prefHeight="47.0" prefWidth="159.0">
+         <children>
+            <Label prefHeight="22.0" prefWidth="148.0" text="Two Image will appear ">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="22.0" prefWidth="148.0" text="choose one of them.">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Label layoutX="92.0" layoutY="36.0" prefHeight="32.0" prefWidth="366.0" text="Game Mechanicis">
+         <font>
+            <Font name="Segoe Print Bold" size="32.0" />
+         </font>
+      </Label>
+      <VBox layoutX="53.0" layoutY="212.0" prefHeight="67.0" prefWidth="194.0">
+         <children>
+            <Label prefHeight="22.0" prefWidth="192.0" text=" Click on one part of the">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="22.0" prefWidth="182.0" text=" images below and  ">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="22.0" prefWidth="170.0" text=" place it in the ">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="22.0" prefWidth="170.0" text="appropriate place.">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="325.0" layoutY="161.0" prefHeight="67.0" prefWidth="211.0">
+         <children>
+            <Label prefHeight="22.0" prefWidth="218.0" text="If you put a part in the ">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="22.0" prefWidth="202.0" text="wrong place, it will not">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="22.0" prefWidth="202.0" text=" appear.">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="325.0" layoutY="223.0" prefHeight="67.0" prefWidth="182.0">
+         <children>
+            <Label prefHeight="22.0" prefWidth="218.0" text="Complete all parts of ">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="22.0" prefWidth="202.0" text="the picture to pass ">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label prefHeight="22.0" prefWidth="202.0" text="the game . ">
+               <font>
+                  <Font name="Segoe Print Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
